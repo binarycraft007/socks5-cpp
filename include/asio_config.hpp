@@ -1,0 +1,11 @@
+#ifndef ASIO_CONFIG_HPP
+#define ASIO_CONFIG_HPP
+
+#define ASIO_STANDALONE
+#define ASIO_SEPARATE_COMPILATION
+#define ASIO_ENABLE_CANCELIO
+#define _REENTRANT
+
+#include <asio.hpp>
+
+#endif // ASIO_CONFIG_HPP
